@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>virtualbnb</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li class="logoMenu"><a href="#">Virtualbnb</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn"><img class="globeIcon"
+                        src="https://image.flaticon.com/icons/svg/485/485394.svg"></a>
+                <div class="dropdown-content">
+                    <a href="#">Português-BR</a>
+                    <a href="#">R$ BRL</a>
+                </div>
+            </li>
+
+            <li><a href="#">Hospede em sua acomodação</a></li>
+            <li><a href="#">Hospede uma experiência</a></li>
+            <li><a href="#">Ajuda</a></li>
+            <li><a href="#">Entrar</a></li>
+            <li class="destaque"><a href="#">Cadastre-se</a></li>
+
+        </nav>
+    </header>
+
+    <div id="menu-secundario">
+        <li class=""><a href="#">Lugares para ficar</a></li>
+        <li><a href="#">Estadias longas</a></li>
+        <li><a href="#">Experiências</a></li>
+        <li><a href="#">Experiências online</a></li>
+
+    </div>
+
+
+    <form action="" method="get">
+        <div class="barraPesquisas">
+            <div class="search-element">
+                <label class="search-label">Localização</label>
+                <input id="localizacao"class="search-input" type="text" autocomplete="on" placeholder="Insira a cidade" name="query">
+            </div>
+            <div class="search-element">
+                <label class="search-label">Check-in</label>
+                <input class="search-input" type="date" name="dateTime" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+
+            </div>
+            <div class="search-element">
+                <label class="search-label">Número de hóspedes
+                    <input class="search-input" type="text" autocomplete="on" placeholder="Insira o número de hóspedes"
+                        name="query">
+            </div>
+            <input type="button" onClick="buscar()" class="search-button" value="Buscar">
+        </div>
+    </form>
+
+    <main id="textoPrincipal">
+        <h1>Podemos estar afastados, mas</h1>
+        <h1> vamos superar isso juntos.</h1>
+    </main>
+
+
+    <section class="imagens">
+        <div class="images"><img
+                src="https://a0.muscache.com/im/pictures/9882b52e-769b-4af6-84fe-58aabaf4b290.jpg?aki_policy=x_large">
+            <h5>Experiências Online</h5>
+            <h6>Mussum Ipsum, cacilds vidis litro abertis. Cevadis im ampola pa arma uma pindureta. Tá deprimidis, eu
+                conheço uma cachacis que pode alegrar sua vidis. </h6>
+        </div>
+        <div class="images"><img
+                src="https://a0.muscache.com/im/pictures/56e33ab9-d581-4333-be11-69286231cee5.jpg?aki_policy=x_large">
+            <h5>Estadias Longas</h5>
+            <h6>Mussum Ipsum, cacilds vidis litro abertis. Cevadis im ampola pa arma uma pindureta. Tá deprimidis, eu
+                conheço uma cachacis que pode alegrar sua vidis. </h6>
+        </div>
+        <div class="images"><img
+                src="https://a0.muscache.com/im/pictures/652b1058-209f-45f7-8383-f3e4d90ee302.jpg?aki_policy=x_large">
+            <h5>Informações atualizadas</h5>
+            <h6>Mussum Ipsum, cacilds vidis litro abertis. Cevadis im ampola pa arma uma pindureta. Tá deprimidis, eu
+                conheço uma cachacis que pode alegrar sua vidis. </h6>
+        </div>
+    </section>
+
+    <div id="bloco3">
+        <div class="c1bloco3">
+
+            <div>
+                <p>Apresentamos as experiências online </p>
+                <p class="texto">
+                    Agora você pode conhecer pessoas do mundo inteiro enquanto experimenta algo novo. Participe de
+                    sessões
+                    de vídeo interativas ao vivo oferecidas por anfitriões especialistas — tudo isso sem sair de casa.
+                </p>
+            </div>
+
+            <div id="btnb3"> <a class="btnbloco3" href="#">Explorar tudo</a></div>
+
+        </div>
+
+        <div class="c2bloco3">
+
+        </div>
+
+    </div>
+
+    </div>
+<script src="index.js"></script>
+</body>
+
+</html>
