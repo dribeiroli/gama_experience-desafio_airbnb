@@ -18,17 +18,15 @@ function buscar() {
 let divImg = document.getElementById("images");
 
 function carregar() {
-    fetch("https://api.sheety.co/30b6e400-9023-4a15-8e6c-16aa4e3b1e72", {
-        method: 'get'
-    })
+    fetch("https://api.sheety.co/30b6e400-9023-4a15-8e6c-16aa4e3b1e72")
         .then(res => res.json())
         .then(dados => {
-            console.log(dados)
+            //console.log(dados)
 
             const locais = dados.map(dados => {
-
-                console.log(dados.photo[1])
-                //let data = Object.entries(dados)
+            
+                
+                //let data = Object.entries(dados)               
 
                     
                 divImg.innerHTML += `
@@ -46,6 +44,9 @@ function carregar() {
                                   </div>
                               </div>
                           </div>`
+
+
+                          
 
                     
 
