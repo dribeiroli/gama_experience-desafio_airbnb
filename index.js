@@ -25,9 +25,9 @@ function carregar() {
         .then(dados => {
             console.log(dados)
 
-            const html = dados.map(dados => {
+            const locais = dados.map(dados => {
 
-
+                console.log(dados.photo[1])
                 //let data = Object.entries(dados)
 
                     
